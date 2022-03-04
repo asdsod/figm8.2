@@ -1,0 +1,70 @@
+@import 'null.css';
+
+
+body {
+    font-family: Lato;
+}
+
+
+
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.createx__center {
+    /* background-color: slategray; */
+    margin: 0px auto 0px;
+    max-width: 350px;
+    font-size: 16px;
+    line-height: 160%;
+}
+.block-header__sub-title {
+    text-transform: uppercase;
+}
+.block-header__title {
+    font-size: 46px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 0px 0px 30px 0px ;
+}
+.createx__list li {
+    padding: 0px 0px 0px 30px;
+    
+}
+.createx__list ::before{
+    content:"";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0px 10px 0px -30px;
+    background: url(../image/check.svg) 0 0 / 16px no-repeat ;
+}
+.botton__orange {
+    background-color: orangered ;
+    border-radius:3px;
+    display: block;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 700;
+    max-width: 120px;
+    padding: 5px;
+    margin: 20px 0px 30px 0px;
+
+}
+.createx__end {
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+.createx__end::after {
+    content: '';
+    display:block;
+    border:  2px dashed red;
+    background-color: black;
+    height: 5px;
+    width: 50px;
+    
+
+}
